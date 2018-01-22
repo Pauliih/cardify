@@ -4,7 +4,7 @@
   "description": "Librería de jQuery que busca imagenes dentro de un contenedor y las reemplaza por un nuevo elemento <figure> que contenga las imagenes (<img>) y además un <figcaption> para cada una.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter nyan"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,11 @@
   "homepage": "https://github.com/Pauliih/cardify#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "chai": "^4.1.2",
     "jquery": "^3.2.1",
     "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0"
   }
 }
