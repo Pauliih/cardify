@@ -5,7 +5,7 @@
 El objetivo principal de este proyecto es construir una librería (library) que responda a lo siguiente:
 
 ###Requisitos como proyecto:
-- Incluir por los menos los siguientes archivos README.md, index.js, index.html, package.json, .eslintrc y .gitignore.
+- Incluir por los menos los siguientes archivos: README.md, index.js, index.html, package.json, .eslintrc y .gitignore.
 
 ###Requisitos como librería:
 - Dado un _contenedor_ debe buscar todas las imágenes que encuentre dentro este _contenedor_, para luego ser procesadas.
@@ -22,11 +22,21 @@ Este proyecto se desarrollará por Paula Campos y Carolina Celis.
 
 ## Flujo de trabajo
 
-1. Se realizará un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) de este repositorio.
+1. Compañera 1 (Paula) realiza un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) de este repositorio y lo clona en su computador.
 
-2. Luego se va a **clonar** el fork en el computador de cada una de las integrantes. 
+2. Se crea la rama ravel para trabajar. 
 
-3. Al terminar el producto, se envirá un Pull Request a la rama del repositorio original.
+3. Se configura el ambiente de desarrollo, instalando npm, packages (dependencias como jQuery y Bootstrap) y creando archivo .gitignore.
+
+4. Compañera 2 (Carolina) realiza un fork del repositorio de Compañera 1 y lo clona en su computador.
+
+5. Se configura y actualiza el fork desde github.
+
+6. Se actualiza el archivo readme.
+
+7. Compañera 2 realiza pull request a Compañera 1.
+
+8. Compañera 1 realiza pull request a repositorio original.
 
 ***
 
