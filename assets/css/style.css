@@ -1,0 +1,15 @@
+body {
+  background-color: #272822FF;
+  color: #fff;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px black;
+}
+
+img {
+  height: 490px;
+  border-radius: 3em;
+  padding: 1em;
+  /* box-shadow: 5px 10px #888888; */
+}

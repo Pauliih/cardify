@@ -1,0 +1,29 @@
+{
+  "name": "cardify",
+  "version": "1.0.0",
+  "description": "Librería de jQuery que busca imagenes dentro de un contenedor y las reemplaza por un nuevo elemento <figure> que contenga las imagenes (<img>) y además un <figcaption> para cada una.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pauliih/cardify.git"
+  },
+  "keywords": [
+    "figure",
+    "img",
+    "figcaption"
+  ],
+  "author": "Paula Campos, Carolina Celis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pauliih/cardify/issues"
+  },
+  "homepage": "https://github.com/Pauliih/cardify#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.2.1",
+    "popper": "^1.0.1"
+  }
+}
