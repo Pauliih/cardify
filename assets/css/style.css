@@ -8,8 +8,29 @@ h1 {
 }
 
 img {
-  height: 490px;
+  width: 370px;
+  height: 520px;
   border-radius: 3em;
   padding: 1em;
-  /* box-shadow: 5px 10px #888888; */
+}
+
+/* css de index.js */
+.titleImg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+figure {
+  position: relative;
+}
+
+figure figcaption {
+  position: absolute;
+  width: 95%;
+  text-align: center;
+  bottom: 100px;
+  right: 1px;
 }
