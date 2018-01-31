@@ -52,6 +52,7 @@ const TRANSFORM = require('../src/cardify');
 
 var expect = require('chai').expect;
 
+
 // describe es la forma en la que describimos que pasará
 describe('Comprobar la extensión de la imagen', () => {
   it('Debería devolver true para archivos con extensión .jpg, .gif, o .png', () => {
@@ -74,5 +75,14 @@ describe('Comprobar si el atributo alt de la imagen dentro de figure está vací
   it('El atributo alt no está vacío', () => {
     var lengthAlt = ($('figure').children('img').attr('alt').length);
     expect($('figure').children('img').attr('alt')).to.have.length(lengthAlt);
+  });
+});
+
+describe('Comprobar que el container tenga la clase containerImg', () => {
+  it('Debería devolver true para contenedor con clase containerImg', () => {
+    expect($('img').parent().hasClass('containerImg'), true);
+  });
+  it('Debería devolver false para contenedor con clase vacía', () => {
+    expect($('img').parent().hasClass(''), false);
   });
 });
