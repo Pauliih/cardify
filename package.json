@@ -28,6 +28,8 @@
     "popper": "^1.0.1"
   },
   "devDependencies": {
+    "browserify": "^15.2.0",
+    "jsdom": "^11.6.2",
     "mocha": "^5.0.0"
   }
 }

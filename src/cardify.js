@@ -18,14 +18,16 @@ $(document).ready(function() {
     wrapImgsInFg();
 
     function hoverImg() {
-      $('figure img').toggleClass('blur');
-      $('figure img').siblings('figcaption').toggleClass('d-none');
+      $('figure img').hover(function() {
+        $(this).toggleClass('blur');
+        $(this).siblings('figcaption').toggleClass('d-none');
+      });
     };
     hoverImg();
   };
 })($);
 
-const TRANSFORM = {};
+let TRANSFORM = {};
 
 TRANSFORM.extension = function(img) {
   const image = $('img');
