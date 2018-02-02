@@ -2,6 +2,12 @@
 
 Cardify es una librería de JS que busca todas las imágenes dentro de un contenedor y que al encontrarlas las envuelve en un elemento *figure*. Además agrega un elemento *figcaption* con el texto del atributo (alt) de cada imagen y lo muestra sobre ella al pasar el cursor (hover), además de darle un estilo a la imagen.
 
+
+![IMAGE](https://github.com/carocelis/cardify/blob/ravel/assets/images/cardify1.png)
+
+![IMAGE](https://github.com/carocelis/cardify/blob/ravel/assets/images/cardify2.png)
+
+
 Proyecto desarrollado por Paula Campos y Carolina Celis.
 
 ***
