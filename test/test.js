@@ -36,7 +36,7 @@ let dom = new JSDOM(`<!DOCTYPE html>
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
   <script src="lib/main.js"></script>
-</body>
+ </body>
 </html>`);
 const { window } = dom;
 global.document = dom;
@@ -47,11 +47,10 @@ global.navigator = {
 
 var $ = require('jquery');
 
-// Instanciamos el código de la librería
+// instanciamos el codigo de la librería
 const TRANSFORM = require('../src/cardify');
 
 var expect = require('chai').expect;
-
 
 // describe es la forma en la que describimos que pasará
 describe('Comprobar la extensión de la imagen', () => {
