@@ -35,7 +35,7 @@ let dom = new JSDOM(`<!DOCTYPE html>
   
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
-  <script src="index.js"></script>
+  <script src="lib/main.js"></script>
 </body>
 </html>`);
 const { window } = dom;
